@@ -1,27 +1,69 @@
 body {
-  background-color: #fffdf9;
+  background-color: #f3f9ff;
 }
 
 @font-face {
   font-family: 'Mon';
   src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
 }
-.header {
-  border: 2px solid black;
-  height: 400px;
 
-  background-image: url('./images/mitchell.jpg');
+@font-face {
+  font-family: 'Just Me';
+  src: url('./fonts/JustMeAgainDownHere.ttf') format('truetype');
+}
+
+.container {
+  max-width: 900px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.padding {
+  margin: 20px;
+}
+
+.header {
+  height: 300px;
+  background-image: url('./images/head_img.png');
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: -40px;
+}
 
+.nav {
+  height: 100px;
+  font-family: 'Mon';
+}
+
+.logo {
+  font-family: 'Just Me', sans-serif;
+  float: left;
+  font-size: 3em;
+  margin-top: 9px;
+}
+
+.links {
+  float: right;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.links > li {
+  display: inline;
+  margin: 10px;
 }
 
 /* =============== */
 
 #left_col {
   float: left;
-  width: 48%;
-  margin: 10px;
+  width: 47%;
+  margin: auto;
 }
 
 #left_col > h2 {
@@ -29,14 +71,21 @@ body {
 }
 
 #left_col > p {
-  font-family: serif;
+  font-family: sans-serif;
+  line-height: 175%;
 }
 
 /* =============== */
 #right_col {
   float: right;
-  width: 48%;
-  margin: 10px;
+  width: 47%;
+  margin: auto;
+}
+
+#right_col > h2 {
+  font-family: 'Mon', sans-serif;
+  text-align: right;
+  margin-right: 20px;
 }
 
 .prof_pics {
@@ -49,14 +98,21 @@ body {
 }
 
 .pics {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
 }
-
-
 
 /* =============== */
 .footer {
-  border: 2px solid black;
+  height: 100px;
   clear: both;
+  text-align: center;
+  background-color: #acbccc;
+  border-radius: 5px;
+}
+
+.footer > h1 {
+  font-family: 'Mon';
+  padding-top: 25px;
 }
