@@ -1,0 +1,124 @@
+body {
+  background-color: #f3f1ed;
+}
+
+@font-face {
+  font-family: 'Rock Salt';
+  src: url('./fonts/RockSalt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hand';
+  src: url('./fonts/Kalam-Bold.ttf') format('truetype');
+}
+
+.container {
+  max-width: 1000px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.padding {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #de795b;
+}
+
+/* =============== */
+
+.header {
+  height: 120px;
+}
+
+.nav {
+  height: 100px;
+}
+
+.logo {
+  font-family: 'Rock Salt', cursive;
+  float: left;
+  font-size: 2em;
+  margin-top: 9px;
+}
+
+.links {
+  float: right;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.links > li:hover {
+  color: #6b757f;
+  cursor: pointer;
+}
+
+.links > li {
+  display: inline;
+  margin: 10px;
+  font-family: 'Hand', sans-serif;
+}
+
+/* =============== */
+
+#left_col {
+  float: left;
+  width: 75%;
+  margin: auto;
+}
+
+#left_col > p {
+  font-family: serif;
+  line-height: 150%;
+  font-size: 1.4em;
+}
+
+#left_col > p:nth-child(2) {
+  font-family: serif;
+  line-height: 140%;
+  font-size: 1.2em;
+  opacity: .8;
+}
+
+/* =============== */
+
+#right_col {
+  float: right;
+  width: 23%;
+  margin: auto;
+  text-align: left;
+  line-height: 120%;
+  padding-top: 15px;
+}
+
+#right_col > p:first-child {
+  font-family: cursive;
+  font-size: .9em;
+}
+
+/* =============== */
+
+.footer-whole {
+  clear:both;
+}
+
+.footer {
+  height: 100px;
+  text-align: center;
+}
+
+
+.icons {
+  margin-top: -10px;
+}
+
+.fa {
+  margin: 5px;
+}
