@@ -1,0 +1,29 @@
+body {
+  background-color: #fffdf9;
+}
+
+.header {
+  border: 2px solid black;
+  height: 300px;
+
+  background-image: url('./images/mitchell.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+
+.left_col {
+  border: 2px solid black;
+  float: left;
+}
+
+.right_col {
+  border: 2px solid black;
+  float: right;ß
+}
+
+.footer {
+  border: 2px solid black;
+  clear: both;
+}
