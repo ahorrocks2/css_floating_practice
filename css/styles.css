@@ -2,27 +2,60 @@ body {
   background-color: #fffdf9;
 }
 
+@font-face {
+  font-family: 'Mon';
+  src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+}
 .header {
   border: 2px solid black;
-  height: 300px;
+  height: 400px;
 
   background-image: url('./images/mitchell.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
 
 }
 
-.left_col {
-  border: 2px solid black;
+/* =============== */
+
+#left_col {
   float: left;
+  width: 48%;
+  margin: 10px;
 }
 
-.right_col {
-  border: 2px solid black;
-  float: right;ß
+#left_col > h2 {
+  font-family: 'Mon';
 }
 
+#left_col > p {
+  font-family: serif;
+}
+
+/* =============== */
+#right_col {
+  float: right;
+  width: 48%;
+  margin: 10px;
+}
+
+.prof_pics {
+  list-style: none;
+}
+
+.prof_pics > li {
+  float: left;
+  margin: 5px;
+}
+
+.pics {
+  height: 200px;
+  width: 200px;
+}
+
+
+
+/* =============== */
 .footer {
   border: 2px solid black;
   clear: both;
